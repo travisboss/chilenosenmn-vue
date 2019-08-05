@@ -10,7 +10,7 @@ Vue.use(VueAnalytics, {
 // Require the main Sass manifest file
 require('@/styles/main.scss');
 
-Vue.config.productionTip = true;
+Vue.config.productionTip = false;
 
 new Vue({
   i18n,

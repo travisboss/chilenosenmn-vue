@@ -11,7 +11,7 @@
           <div class="column is-6 is-offset-3">
             <div class="box">
               <div class="field">
-                <label class="label" name="name">Name</label>
+                <label class="label" name="name">{{ $t('name') }}</label>
                 <div class="control has-icons-left">
                   <input class="input" type="text" name="name" placeholder="e.g John Doe" value />
                   <span class="icon is-small is-left">
@@ -21,7 +21,7 @@
               </div>
 
               <div class="field">
-                <label class="label">Email</label>
+                <label class="label">{{ $t('email') }}</label>
                 <div class="control has-icons-left">
                   <input
                     class="input"
@@ -37,7 +37,7 @@
               </div>
 
               <div class="field">
-                <label class="label">Phone</label>
+                <label class="label">{{ $t('phone') }}</label>
                 <div class="control has-icons-left">
                   <input
                     class="input"
@@ -53,7 +53,7 @@
               </div>
 
               <div class="field">
-                <label class="label">Message</label>
+                <label class="label">{{ $t('message') }}</label>
                 <div class="control">
                   <textarea class="textarea" name="message" placeholder="Your Message"></textarea>
                   <input type="text" name="_gotcha" style="display:none" />
@@ -67,7 +67,7 @@
                     <span class="icon">
                       <i class="fa fa-envelope"></i>
                     </span>
-                    <span>Submit</span>
+                    <span>{{ $t('submit') }}</span>
                   </button>
                 </div>
               </div>
@@ -88,6 +88,33 @@ export default {
       'action',
       '//formspree.io/' + 'chilenosenminnesota' + '@' + 'gmail' + '.' + 'com'
     );
+  },
+  data() {
+    return { locale: 'es' };
+  },
+  watch: {
+    locale(val) {
+      this.$i18n.locale = val;
+    }
   }
 };
 </script>
+
+<i18n>
+{
+  "es": {
+    "name": "nombre",
+    "email": "correo electrónico",
+    "phone": "teléfono",
+    "message": "mensaje",
+    "submit": "enviar"
+  },
+ "en": {
+    "name": "name",
+    "email": "email",
+    "phone": "phone",
+    "message": "message",
+    "submit": "submit"
+  }
+}
+</i18n>
