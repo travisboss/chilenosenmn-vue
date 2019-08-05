@@ -1,0 +1,93 @@
+<template>
+  <section class="section" id="contact">
+    <div class="column">
+      <div class="section-heading">
+        <h3 class="title is-2 has-text-white has-text-centered">Contact US</h3>
+        <h4 class="subtitle is-5 has-text-white has-text-centered">Get in touch</h4>
+      </div>
+      <br />
+      <div id="contactform" method="POST" name="sentMessage" novalidate="novalidate">
+        <div class="columns">
+          <div class="column is-6 is-offset-3">
+            <div class="box">
+              <div class="field">
+                <label class="label" name="name">Name</label>
+                <div class="control has-icons-left">
+                  <input class="input" type="text" name="name" placeholder="e.g John Doe" value />
+                  <span class="icon is-small is-left">
+                    <i class="fa fa-user"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control has-icons-left">
+                  <input
+                    class="input"
+                    type="email"
+                    name="_replyto"
+                    placeholder="e.g johndoe@gmail.com"
+                    value
+                  />
+                  <span class="icon is-small is-left">
+                    <i class="fa fa-envelope"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Phone</label>
+                <div class="control has-icons-left">
+                  <input
+                    class="input"
+                    type="phone"
+                    name="phone"
+                    placeholder="e.g 5551234567"
+                    value
+                  />
+                  <span class="icon is-small is-left">
+                    <i class="fa fa-phone"></i>
+                  </span>
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Message</label>
+                <div class="control">
+                  <textarea class="textarea" name="message" placeholder="Your Message"></textarea>
+                  <input type="text" name="_gotcha" style="display:none" />
+                  <input type="hidden" name="_next" value="https://chilenosenmn.org/" />
+                </div>
+              </div>
+
+              <div class="field is-grouped has-text-centered">
+                <div class="control">
+                  <button class="button is-danger is-rounded">
+                    <span class="icon">
+                      <i class="fa fa-envelope"></i>
+                    </span>
+                    <span>Submit</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script>
+export default {
+  name: 'Form',
+  mounted() {
+    const contactform = document.getElementById('contactform');
+    contactform.setAttribute(
+      'action',
+      '//formspree.io/' + 'chilenosenminnesota' + '@' + 'gmail' + '.' + 'com'
+    );
+  }
+};
+</script>
