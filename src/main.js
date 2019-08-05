@@ -1,6 +1,11 @@
 import Vue from 'vue';
 import App from './App.vue';
 import i18n from './i18n';
+import VueAnalytics from 'vue-analytics';
+
+Vue.use(VueAnalytics, {
+  id: 'UA-122318639-6'
+});
 
 // Require the main Sass manifest file
 require('@/styles/main.scss');
