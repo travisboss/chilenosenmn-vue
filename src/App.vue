@@ -3,7 +3,7 @@
     <div class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
-          <a class="navbar-item navbar-logo is-size-2-desktop is-size-5-tablet" href="#app"
+          <a class="navbar-item navbar-logo is-size-2-desktop is-size-4-tablet is-size-6-mobile" href="#app"
             >Chilenos En Minnesota</a
           >
 

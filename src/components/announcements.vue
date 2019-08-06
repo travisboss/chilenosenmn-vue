@@ -2,8 +2,7 @@
   <section id="party">
     <div class="container">
       <div class="columns is-centered">
-        <div class="is-full"></div>
-        <h3 class="is-size-3 has-text-centered is-capitalized">{{ $t('message') }}</h3>
+        <h3 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered is-capitalized">{{ $t('message') }}</h3>
       </div>
     </div>
   </section>

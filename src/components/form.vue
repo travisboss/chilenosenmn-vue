@@ -2,8 +2,8 @@
   <section class="section" id="contact">
     <div class="column">
       <div class="section-heading">
-        <h3 class="title is-2 has-text-white has-text-centered">Contact US</h3>
-        <h4 class="subtitle is-5 has-text-white has-text-centered">Get in touch</h4>
+        <h3 class="title is-2 has-text-white has-text-centered">{{ $t('contact') }}</h3>
+        <h4 class="subtitle is-5 has-text-white has-text-centered">{{ $t('touch') }}</h4>
       </div>
       <br />
       <div id="contactform" method="POST" name="sentMessage" novalidate="novalidate">
@@ -103,6 +103,8 @@ export default {
 <i18n>
 {
   "es": {
+    "contact" : "Contáctenos",
+    "touch" : "Estar en contacto",
     "name": "nombre",
     "email": "correo electrónico",
     "phone": "teléfono",
@@ -110,6 +112,8 @@ export default {
     "submit": "enviar"
   },
  "en": {
+    "contact" : "Contact Us",
+    "touch" : "Get In Touch",
     "name": "name",
     "email": "email",
     "phone": "phone",
