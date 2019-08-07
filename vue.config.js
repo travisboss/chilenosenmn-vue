@@ -23,5 +23,5 @@ module.exports = {
       }
     }
   },
-  publicPath: process.env.NODE_ENV === 'production' ? 'chilenosenmn-vue' : '/'
+  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/'
 };

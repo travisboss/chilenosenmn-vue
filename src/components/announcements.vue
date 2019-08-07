@@ -2,7 +2,26 @@
   <section id="party">
     <div class="container">
       <div class="columns is-centered">
-        <h3 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered is-capitalized">{{ $t('message') }}</h3>
+        <div
+          class="fb-post"
+          data-href="https://www.facebook.com/chilenos.fernandez.9/posts/529036614537187"
+          data-width="750"
+          data-show-text="true"
+        >
+          <blockquote
+            cite="https://developers.facebook.com/chilenos.fernandez.9/posts/529036614537187"
+            class="fb-xfbml-parse-ignore"
+          >
+            <p>Importante información</p>
+            Posted by
+            <a href="https://www.facebook.com/chilenos.fernandez.9">Chilenos EnMinnesota</a>
+            on&nbsp;<a
+              href="https://developers.facebook.com/chilenos.fernandez.9/posts/529036614537187"
+              >Tuesday, August 6, 2019</a
+            >
+          </blockquote>
+        </div>
+        <!--<h3 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered is-capitalized">{{ $t('message') }}</h3>-->
       </div>
     </div>
   </section>
