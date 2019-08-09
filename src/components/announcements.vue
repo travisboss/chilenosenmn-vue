@@ -23,6 +23,16 @@
         </div>
         <!--<h3 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered is-capitalized">{{ $t('message') }}</h3>-->
       </div>
+      &nbsp;
+      <div class="is-clearfix"></div>
+      <div class="columns is-centered">
+        <a
+          href="./docs/fiestasPatriasMinnesota2019.pdf"
+          class="button is-info is-medium"
+          target="_blank"
+          >Fiestas Patrias MN 2019 pdf</a
+        >
+      </div>
     </div>
   </section>
 </template>
