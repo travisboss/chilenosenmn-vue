@@ -6,7 +6,7 @@
         <h4 class="subtitle is-5 has-text-white has-text-centered">{{ $t('touch') }}</h4>
       </div>
       <br />
-      <div id="contactform" method="POST" name="sentMessage" novalidate="novalidate">
+      <form id="contactform" method="POST" name="sentMessage">
         <div class="columns">
           <div class="column is-6 is-offset-3">
             <div class="box">
@@ -63,7 +63,7 @@
 
               <div class="field is-grouped has-text-centered">
                 <div class="control">
-                  <button class="button is-danger is-rounded">
+                  <button class="button is-danger is-rounded" type="submit" value="Send">
                     <span class="icon">
                       <i class="fa fa-envelope"></i>
                     </span>
@@ -74,7 +74,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </form>
     </div>
   </section>
 </template>
