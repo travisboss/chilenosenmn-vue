@@ -10,7 +10,6 @@
     </a>
     <div class="portfolio-caption">
       <h4 class="title">{{ title }}</h4>
-      <p class="subtitle">{{ year }}</p>
     </div>
   </div>
 </template>
@@ -18,6 +17,6 @@
 <script>
 export default {
   name: 'Events',
-  props: ['title', 'year', 'imgURL', 'url']
+  props: ['title', 'imgURL', 'url']
 };
 </script>
