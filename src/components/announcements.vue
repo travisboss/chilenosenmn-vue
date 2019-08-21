@@ -2,6 +2,7 @@
   <section id="party">
     <div class="container">
       <div class="columns is-centered">
+          <div class="column is-narrow">
         <form action="https://www.paypal.com/cgi-bin/webscr" method="GET" target="_top">
           <input type="hidden" name="cmd" value="_s-xclick" />
           <input type="hidden" name="hosted_button_id" value="4LX2UKBSAQ6AW" />
@@ -37,6 +38,7 @@
             height="1"
           />
         </form>
+          </div>
       </div>
       <span class="clearfix"></span>
       <div class="columns is-centered" style="padding-top: 2em;">

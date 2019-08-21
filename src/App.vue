@@ -1,12 +1,12 @@
 <template>
   <div id="app">
-    <div class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+    <div class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
       <div class="container">
         <div class="navbar-brand">
           <a
             class="navbar-item navbar-logo is-size-2-desktop is-size-4-tablet is-size-6-mobile"
             href="#app"
-            >Chilenos En Minnesota</a
+            ><img src="./assets/chilenosEnMN.png" class="image" style="padding-right: 1em;">  Chilenos En Minnesota</a
           >
 
           <a
