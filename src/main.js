@@ -2,8 +2,9 @@ import Vue from 'vue';
 import App from './App.vue';
 import i18n from './i18n';
 import VueAnalytics from 'vue-analytics';
+import VueTinyLazyloadImg from 'vue-tiny-lazyload-img';
 
-Vue.use(VueAnalytics, {
+Vue.use(VueTinyLazyloadImg, VueAnalytics, {
   id: 'UA-122318639-6'
 });
 

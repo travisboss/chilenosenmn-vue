@@ -6,7 +6,7 @@
           <i class="fa fa-external-link fa-3x"></i>
         </div>
       </div>
-      <img class="image" :src="imgURL" alt="chilenosenminnesota" />
+      <img v-lazyload class="image" :src="imgURL" alt="chilenosenminnesota" />
     </a>
     <div class="portfolio-caption">
       <h4 class="title">{{ title }}</h4>

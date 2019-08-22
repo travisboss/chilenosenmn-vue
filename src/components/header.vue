@@ -12,13 +12,13 @@
       :autoplayTimeout="4500"
     >
       <slide>
-        <img src="https://source.unsplash.com/H6KJ2D0LphU/1920x900" />
+        <img v-lazyload src="https://source.unsplash.com/H6KJ2D0LphU/1920x900" />
       </slide>
       <slide>
-        <img src="https://source.unsplash.com/9CPAjGVB378/1920x900" />
+        <img v-lazyload src="https://source.unsplash.com/9CPAjGVB378/1920x900" />
       </slide>
       <slide>
-        <img src="https://source.unsplash.com/9Sy-exlg7O4/1920x900" />
+        <img v-lazyload src="https://source.unsplash.com/9Sy-exlg7O4/1920x900" />
       </slide>
     </carousel>
   </header>

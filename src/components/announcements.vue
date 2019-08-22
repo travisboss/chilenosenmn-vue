@@ -43,7 +43,7 @@
       <span class="clearfix"></span>
       <div class="columns is-centered" style="padding-top: 2em;">
         <figure class="image">
-          <img style="width: 41em;" src="../assets/flyer Fiestas Patrias.jpg" />
+          <img style="width: 41em;" v-lazyload src="../assets/flyer Fiestas Patrias.jpg" />
         </figure>
         <!--<h3 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered is-capitalized">{{ $t('message') }}</h3>-->
       </div>
