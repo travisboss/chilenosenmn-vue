@@ -6,7 +6,8 @@
           <a
             class="navbar-item navbar-logo is-size-2-desktop is-size-4-tablet is-size-6-mobile"
             href="#app"
-            ><img src="./assets/chilenosEnMN.png" class="image" style="padding-right: 1em;">  Chilenos En Minnesota</a
+            ><img src="./assets/chilenosEnMN.png" class="image" style="padding-right: 1em;" />
+            Chilenos En Minnesota</a
           >
 
           <a
@@ -23,7 +24,7 @@
         </div>
         <div class="navbar-menu" id="navbarChile">
           <div class="navbar-end">
-            <Nav title="Eventos" url="#party"></Nav>
+            <Nav title="Fiestas Patrias" url="#party"></Nav>
             <Nav title="Eventos Pasados" url="#portfolio"></Nav>
             <Nav title="Contacto" url="#contact"></Nav>
           </div>
@@ -32,10 +33,11 @@
     </div>
     <Header></Header>
     <Announcements></Announcements>
+    <hr />
     <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="content has-text-centered">
-          <h2 class="section-heading text-uppercase">Eventos Pasado</h2>
+          <h2 class="section-heading text-uppercase">Eventos Pasados</h2>
           <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
@@ -51,7 +53,7 @@
           url="https://www.flickr.com/photos/141871767@N05/collections/72157710431075261/"
         ></Events>
         <Events
-            title="Otros Eventos"
+          title="Otros Eventos"
           imgURL="./images/bingo2018web.jpg"
           url="https://www.flickr.com/photos/141871767@N05/collections/72157710431092156/"
         ></Events>

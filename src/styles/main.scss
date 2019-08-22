@@ -153,7 +153,7 @@ img {
  *  }
  *}*/
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
   header.masthead {
     display: none;
   }
@@ -217,7 +217,7 @@ img {
       background-color: #fff;
       margin: 0 auto;
       max-width: 400px;
-      padding: 25px;
+      padding: 10px;
       text-align: center;
       h4 {
         margin: 0;
@@ -238,6 +238,11 @@ img {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+  }
+}
+@media (max-width: 376px) {
+  .m-sm {
+    margin: 2% 21% !important;
   }
 }
 
