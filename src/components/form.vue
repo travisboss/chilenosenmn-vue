@@ -114,7 +114,6 @@ export default {
  "en": {
     "contact" : "Contact Us",
     "touch" : "Get In Touch",
-    "name": "name",
     "email": "email",
     "phone": "phone",
     "message": "message",

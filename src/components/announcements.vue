@@ -3,12 +3,12 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-narrow">
-          <form action="https://www.paypal.com/cgi-bin/webscr" method="GET" target="_top">
+          <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="GET">
             <input type="hidden" name="cmd" value="_s-xclick" />
-            <input type="hidden" name="hosted_button_id" value="4LX2UKBSAQ6AW" />
+            <input type="hidden" name="hosted_button_id" value="CRD99UZHV4QEJ" />
             <table>
               <tr>
-                <td><input type="hidden" name="on0" value="Ticket(s)" />Ticket(s)</td>
+                <td><input type="hidden" name="on0" value="Tickets" />Tickets</td>
               </tr>
               <tr>
                 <td>
@@ -25,7 +25,7 @@
             <input type="hidden" name="currency_code" value="USD" />
             <input
               type="image"
-              src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif"
+              src="https://www.paypalobjects.com/en_US/i/btn/btn_cart_LG.gif"
               border="0"
               name="submit"
               alt="PayPal - The safer, easier way to pay online!"
