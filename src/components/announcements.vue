@@ -8,23 +8,7 @@
         </figure>
         <!--<h3 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered is-capitalized">{{ $t('message') }}</h3>-->
       </div>
-      &nbsp;
-      <span class="is-clearfix"></span>
-      <div class="columns is-centered">
-        <a
-          href="./docs/convocatoriaPuestosDeVentasDeComida.pdf"
-          class="button is-danger is-medium m-sm"
-          target="_blank"
-          style="margin: 1em 1em;"
-          >Convocatoria Comida</a
-        >
-        <a
-          href="./docs/fiestasPatrias2019.pdf"
-          class="button is-info is-medium m-sm"
-          target="_blank"
-          style="margin: 1em 1em;"
-          >Fiestas Patrias</a
-        >
+<div class="fb-post" data-href="https://www.facebook.com/chilenos.fernandez.9/posts/583661682408013:0" data-width="" data-show-text="true"><blockquote cite="https://developers.facebook.com/chilenos.fernandez.9/posts/583661682408013:0" class="fb-xfbml-parse-ignore"><p>#estamosunidos</p>Posted by <a href="https://www.facebook.com/chilenos.fernandez.9">Chilenos EnMinnesota</a> on&nbsp;<a href="https://developers.facebook.com/chilenos.fernandez.9/posts/583661682408013:0">Thursday, October 24, 2019</a></blockquote></div>
       </div>
     </div>
   </section>
