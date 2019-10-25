@@ -3,7 +3,6 @@
     <div class="container">
       <span class="clearfix"></span>
       <div class="columns is-centered" style="padding-top: 2em;">
-<<<<<<< HEAD
         <div
           class="fb-post"
           data-href="https://www.facebook.com/chilenos.fernandez.9/posts/583661682408013:0"
@@ -23,15 +22,6 @@
             >
           </blockquote>
         </div>
-        <!--<h3 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered is-capitalized">{{ $t('message') }}</h3>-->
-=======
-        <figure class="image">
-          <img style="width: 41em;" v-lazyload src="../assets/flyer Fiestas Patrias.jpg" />
-        </figure>
-        <!--<h3 class="is-size-2-desktop is-size-3-tablet is-size-4-mobile has-text-centered is-capitalized">{{ $t('message') }}</h3>-->
-      </div>
-<div class="fb-post" data-href="https://www.facebook.com/chilenos.fernandez.9/posts/583661682408013:0" data-width="" data-show-text="true"><blockquote cite="https://developers.facebook.com/chilenos.fernandez.9/posts/583661682408013:0" class="fb-xfbml-parse-ignore"><p>#estamosunidos</p>Posted by <a href="https://www.facebook.com/chilenos.fernandez.9">Chilenos EnMinnesota</a> on&nbsp;<a href="https://developers.facebook.com/chilenos.fernandez.9/posts/583661682408013:0">Thursday, October 24, 2019</a></blockquote></div>
->>>>>>> 35ab35ad58de967166b0c37c15db0491a32b43dd
       </div>
      </div>
     </div>
