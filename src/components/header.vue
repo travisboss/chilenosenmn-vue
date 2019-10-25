@@ -17,9 +17,6 @@
       <slide>
         <img v-lazyload src="https://source.unsplash.com/9CPAjGVB378/1920x900" />
       </slide>
-      <slide>
-        <img v-lazyload src="https://source.unsplash.com/9Sy-exlg7O4/1920x900" />
-      </slide>
     </carousel>
   </header>
 </template>
