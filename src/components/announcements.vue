@@ -5,25 +5,27 @@
       <div class="columns is-centered" style="padding-top: 2em;">
         <div
           class="fb-post"
-          data-href="https://www.facebook.com/chilenos.fernandez.9/posts/583661682408013:0"
+          data-href="https://www.facebook.com/chilenos.fernandez.9/posts/600496920724489"
           data-width=""
           data-show-text="true"
         >
           <blockquote
-            cite="https://developers.facebook.com/chilenos.fernandez.9/posts/583661682408013:0"
+            cite="https://developers.facebook.com/chilenos.fernandez.9/posts/600496920724489"
             class="fb-xfbml-parse-ignore"
           >
-            <p>#estamosunidos</p>
+            <p>
+              Queridos amigos, Queremos expresar nuestro más sincero pesar por la situación que está
+              pasando nuestro país....
+            </p>
             Posted by
             <a href="https://www.facebook.com/chilenos.fernandez.9">Chilenos EnMinnesota</a>
             on&nbsp;<a
-              href="https://developers.facebook.com/chilenos.fernandez.9/posts/583661682408013:0"
-              >Thursday, October 24, 2019</a
+              href="https://developers.facebook.com/chilenos.fernandez.9/posts/600496920724489"
+              >Thursday, November 14, 2019</a
             >
           </blockquote>
         </div>
       </div>
-     </div>
     </div>
   </section>
 </template>
