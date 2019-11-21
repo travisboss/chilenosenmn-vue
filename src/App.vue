@@ -7,7 +7,7 @@
             class="navbar-item navbar-logo is-size-2-desktop is-size-4-tablet is-size-6-mobile"
             href="#app"
           >
-            <img src="./assets/chilenosEnMN.png" class="image" style="padding-right: 1em;" />
+            <img src="./assets/chilenosEnMN.png" class="image is-pr-1" />
             Chilenos En Minnesota
           </a>
 
@@ -72,6 +72,7 @@ import Footer from './components/footer.vue';
 import Form from './components/form.vue';
 import Header from './components/header.vue';
 import Nav from './components/nav.vue';
+import News from './components/news.vue';
 
 export default {
   name: 'app',
@@ -81,7 +82,8 @@ export default {
     Footer,
     Form,
     Header,
-    Nav
+    Nav,
+    News
   }
 };
 </script>

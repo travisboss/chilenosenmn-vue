@@ -13,7 +13,14 @@
               <div class="field">
                 <label class="label" name="name">{{ $t('name') }}</label>
                 <div class="control has-icons-left">
-                  <input class="input" type="text" name="name" placeholder="e.g John Doe" value />
+                  <input
+                    class="input"
+                    v-model="name"
+                    type="text"
+                    name="name"
+                    placeholder="e.g John Doe"
+                    value
+                  />
                   <span class="icon is-small is-left">
                     <i class="fa fa-user"></i>
                   </span>
@@ -26,6 +33,7 @@
                   <input
                     class="input"
                     type="email"
+                    v-model="email"
                     name="_replyto"
                     placeholder="e.g johndoe@gmail.com"
                     value
@@ -55,7 +63,12 @@
               <div class="field">
                 <label class="label">{{ $t('message') }}</label>
                 <div class="control">
-                  <textarea class="textarea" name="message" placeholder="Your Message"></textarea>
+                  <textarea
+                    class="textarea"
+                    v-model="message"
+                    name="message"
+                    placeholder="Your Message"
+                  ></textarea>
                   <input type="text" name="_gotcha" style="display:none" />
                   <input type="hidden" name="_next" value="https://chilenosenmn.org/" />
                 </div>
@@ -63,7 +76,13 @@
 
               <div class="field is-grouped has-text-centered">
                 <div class="control">
-                  <button class="button is-danger is-rounded" type="submit" value="Send">
+                  <button
+                    :disabled="!isComplete"
+                    class="button is-info is-rounded"
+                    type="submit"
+                    value="Send"
+                    v-on:click="sendFormspree"
+                  >
                     <span class="icon">
                       <i class="fa fa-envelope"></i>
                     </span>
@@ -82,19 +101,25 @@
 <script>
 export default {
   name: 'Form',
-  mounted() {
-    const contactform = document.getElementById('contactform');
-    contactform.setAttribute(
-      'action',
-      '//formspree.io/' + 'chilenosenminnesota' + '@' + 'gmail' + '.' + 'com'
-    );
-  },
   data() {
-    return { locale: 'es' };
+    return { locale: '', name: '', email: '', message: '' };
   },
   watch: {
     locale(val) {
       this.$i18n.locale = val;
+    }
+  },
+  computed: {
+    isComplete() {
+      return this.name && this.email && this.message;
+    }
+  },
+  methods: {
+    sendFormspree() {
+      contactform.setAttribute(
+        'action',
+        '//formspree.io/' + 'chilenosenminnesota' + '@' + 'gmail' + '.' + 'com'
+      );
     }
   }
 };

@@ -1,5 +1,5 @@
 <template>
-  <header class="masthead" style="padding-bottom: 2em;">
+  <header class="masthead is-pb-2">
     <carousel
       :autoplay="true"
       :per-page="1"
