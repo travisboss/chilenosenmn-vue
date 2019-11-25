@@ -33,7 +33,11 @@
       </div>
     </div>
     <Header></Header>
-    <Announcements></Announcements>
+    <Announcements
+      title="Consulado General de Chile en Chicago cambio de oficina"
+      imgURL="./images/2019cambioDeOficinia.jpg"
+      url="./images/2019infoCambioDeOficina.pdf"
+    ></Announcements>
     <hr />
     <section class="bg-light" id="portfolio">
       <div class="container">
@@ -72,7 +76,6 @@ import Footer from './components/footer.vue';
 import Form from './components/form.vue';
 import Header from './components/header.vue';
 import Nav from './components/nav.vue';
-import News from './components/news.vue';
 
 export default {
   name: 'app',
@@ -82,8 +85,7 @@ export default {
     Footer,
     Form,
     Header,
-    Nav,
-    News
+    Nav
   }
 };
 </script>

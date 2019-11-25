@@ -564,3 +564,19 @@ ul.facebook li a {
     width: 100%;
   }
 }
+.container-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 0.5em;
+}
+
+.card {
+  height: max-content;
+}
+//tile notification component
+.notification {
+  background-color: #f5f5f500;
+}
+.is-horizontal-center {
+  justify-content: center;
+}
