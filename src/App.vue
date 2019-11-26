@@ -25,7 +25,7 @@
         </div>
         <div class="navbar-menu" id="navbarChile">
           <div class="navbar-end">
-            <Nav title="Fiestas Patrias" url="#party"></Nav>
+            <Nav title="Anuncios" url="#party"></Nav>
             <Nav title="Eventos Pasados" url="#portfolio"></Nav>
             <Nav title="Contacto" url="#contact"></Nav>
           </div>
