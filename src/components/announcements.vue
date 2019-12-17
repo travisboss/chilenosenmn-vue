@@ -9,13 +9,10 @@
             Cambio de domicilio electoral en Minnesota : ¿Cómo, dónde y hasta cuándo realizarlo?
             Para inscribir o cambiar su domicilio electoral, pueden hacerlo vía online con su clave
             única de registro civil. En el caso de no tener su clave, puede hacer el cambio de
-            domicilio pidiendo una cita con nuestra  cónsul honoraria en Minnesota,
+            domicilio pidiendo una cita con nuestra cónsul honoraria en Minnesota,
             <span class="has-text-weight-bold">Teresa P. Olson</span> a
             <a class="has-text-link" href="mailto:consulhonorariamn@gmail.com"
               >consulhonorariamn@gmail.com</a
-            >.
-            <span class="has-text-weight-bold"
-              >Plazo para realizar este trámite es hasta el dia  27 de Noviembre. Gracias!</span
             >
           </p>
           <div class="content">
