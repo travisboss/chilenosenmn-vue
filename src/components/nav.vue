@@ -1,5 +1,5 @@
 <template>
-  <a class="navbar-item has-text-danger is-size-4" :href="url">{{ title }}</a>
+  <a class="navbar-item has-text-danger is-size-4 has-text-weight-bold" :href="url">{{ title }}</a>
 </template>
 
 <script>
