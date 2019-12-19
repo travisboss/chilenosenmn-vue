@@ -92,7 +92,7 @@
             <Announcements
               title="Peticion para la instalacion de una mesa de votacion en Minnesota"
               imgAnnounce="https://i.postimg.cc/HLH9n4JW/Peticion-para-la-instalacion-de-una-mesa-de-votacion-en-Minneso.jpg"
-              url="https://drive.google.com/file/d/0B4GjYxhszQjCUFZFQ1oxSVZad2M1ZG5JOXFCOE5KSmd1N19J/view"
+              url="http://chng.it/rBCsLTPfbF"
             ></Announcements>
           </div>
         </div>
