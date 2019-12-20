@@ -41,7 +41,6 @@ h6 {
   font-weight: 700;
 }
 section {
-  padding: 100px 0;
   h2.section-heading {
     font-size: 40px;
     margin-bottom: 15px;
@@ -53,11 +52,6 @@ section {
     font-weight: 400;
     margin-bottom: 75px;
     text-transform: none;
-  }
-}
-@media (min-width: 768px) {
-  section {
-    padding: 40px 0;
   }
 }
 ::-moz-selection {
@@ -100,56 +94,6 @@ img {
 .navbar-item img {
   max-height: 1.75em;
 }
-
-/*header.masthead {
- *  -moz-background-size: cover;
- *  -o-background-size: cover;
- *  -webkit-background-size: cover;
- *  background-attachment: scroll;
- *  background-image: url('../assets/header-bg.jpg');
- *  background-position: center center;
- *  background-repeat: no-repeat;
- *  background-size: cover;
- *  border-bottom: 3px hsl(0, 0%, 69%) solid;
- *  color: hsl(0, 0%, 0%);
- *  text-align: center;
- *  .intro-text {
- *    padding-bottom: 100px;
- *    padding-top: 150px;
- *    .intro-lead-in {
- *      font-size: 22px;
- *      font-style: italic;
- *      line-height: 22px;
- *      margin-bottom: 25px;
- *    }
- *    .intro-heading {
- *      font-size: 50px;
- *      font-weight: 700;
- *      line-height: 50px;
- *      margin-bottom: 25px;
- *    }
- *  }
- *}*/
-
-/*@media (min-width: 768px) {
- *  header.masthead .intro-text {
- *    padding-bottom: 200px;
- *    padding-top: 300px;
- *    .intro-lead-in {
- *      font-size: 32px;
- *      font-style: italic;
- *      line-height: 40px;
- *      margin-bottom: -26px;
- *      margin-right: 11px;
- *    }
- *    .intro-heading {
- *      font-size: 75px;
- *      font-weight: 700;
- *      line-height: 75px;
- *      margin-bottom: 50px;
- *    }
- *  }
- *}*/
 
 @media (max-width: 320px) {
   header.masthead {
@@ -532,16 +476,6 @@ ul.facebook li a {
   }
 }
 
-@media (max-width: 414px) {
-  section {
-    padding: 36px 0;
-  }
-}
-
-@media (max-width: 375px) {
-  section {
-    padding: 27px 0;
-  }
   .h5,
   h5 {
     font-size: 1rem;
@@ -554,7 +488,6 @@ ul.facebook li a {
       font-size: 1.95rem;
     }
   }
-}
 
 @media (max-width: 580px) {
   .flyer-services {
@@ -576,4 +509,13 @@ ul.facebook li a {
 }
 .is-horizontal-center {
   justify-content: center;
+}
+.navbar-burger {
+  display: none;
+}
+@media screen and (max-width: 375px) {
+  .navbar-brand,
+  .navbar-tabs {
+    justify-content: center;
+  }
 }

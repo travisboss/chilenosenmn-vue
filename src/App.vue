@@ -1,50 +1,12 @@
 <template>
   <div id="app">
-    <div class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
-      <div class="container">
-        <div class="navbar-brand">
-          <a
-            class="navbar-item navbar-logo is-size-2-desktop is-size-4-tablet is-size-6-mobile has-text-weight-bold"
-            href="#app"
-          >
-            <img src="./assets/chilenosEnMN.png" class="image is-pr-1" />
-            Chilenos En Minnesota
-          </a>
-
-          <a
-            role="button"
-            class="navbar-burger burger"
-            aria-label="menu"
-            aria-expanded="false"
-            data-target="navbarChile"
-          >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </a>
-        </div>
-        <div class="navbar-menu" id="navbarChile">
-          <div class="navbar-end">
-            <Nav
-              title="Firmar Solicitud"
-              url="http://chng.it/rBCsLTPfbF"
-              target="_blank"
-              rel="noopener"
-            ></Nav>
-            <Nav title="Cabildo" url="#party"></Nav>
-            <Nav title="Eventos Pasados" url="#portfolio"></Nav>
-            <Nav title="Contacto" url="#contact"></Nav>
-          </div>
-        </div>
-      </div>
-    </div>
+    <Nav></Nav>
     <Header></Header>
     <section id="party">
       <div class="container">
-        <span class="is-clearfix"></span>
         <div class="tile is-12 is-parent">
           <article class="message is-info">
-            <div class="message-header is-size-5">
+            <div class="message-header">
               Avisos
             </div>
             <div class="message-body">
