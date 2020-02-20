@@ -24,16 +24,6 @@
       </div>
       <div class="navbar-menu" id="navbarChile">
         <div class="navbar-end">
-          <a
-            class="navbar-item has-text-danger is-size-4 has-text-weight-bold"
-            href="http://chng.it/rBCsLTPfbF"
-            target="_blank"
-            rel="noopener"
-            >Firmar Solicitud</a
-          >
-          <a class="navbar-item has-text-danger is-size-4 has-text-weight-bold" href="#party"
-            >Cabildo</a
-          >
           <a class="navbar-item has-text-danger is-size-4 has-text-weight-bold" href="#portfolio"
             >Eventos Pasados</a
           >

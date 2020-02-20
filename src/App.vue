@@ -21,15 +21,6 @@
                     >consulhonorariamn@gmail.com</a
                   >
                 </li>
-                <br />
-                <li>
-                  También, queremos informarles que se realizará un Conversatorio acerca de la
-                  Constitución con la participación de profesionales en el tema. Éste estaría a
-                  cargo de la Profesora Lisa Hilbink y de la candidata a doctora Valentina Salas.
-                  Ambas del Departamento de Ciencias Políticas de la Universidad de Minnesota. El
-                  día, hora y lugar se confirmará dentro de los próximos días. Por el momento la
-                  idea es realizarlo a finales de enero 2020.
-                </li>
               </ol>
             </div>
           </article>
@@ -38,23 +29,23 @@
         <div class="columns">
           <div class="column is-third">
             <Announcements
-              title="Conclusiones del Cabildo Comunitario Chilenos En Minnesota"
-              imgAnnounce="https://i.postimg.cc/W420TNKh/Cabildo-Comunitario-Chilenos-en-Minnesota.jpg"
-              url="https://drive.google.com/file/d/0B4GjYxhszQjCOVhlYUl1aHVVQU5HYjJNLUpUZDAzRzFZTy1R/view"
+              title="Consulado Honorario en Minnesota"
+              imgAnnounce="https://i.postimg.cc/hj2qj06Q/servicosconsulares.jpg"
+              url="https://serviciosconsulares.cl/tramites/consulados-en-el-exterior/estados-unidos/minneapolis-minnesota/consulado-honorario-en-minneapolis-minnesota"
             ></Announcements>
           </div>
           <div class="column is-third">
             <Announcements
-              title="Instrucciones para donar desde el extranjero para la Cruz Roja Chilena"
-              imgAnnounce="https://i.postimg.cc/ncXY5WJD/INSTRUCCIONS-TRANFER-BANCOESTADO-292222.jpg"
-              url="https://drive.google.com/drive/folders/1bhC8r4SfHX8gS3NzxxTDvs0B5TPAdlfd"
+              title="Voto Chileno en Exterior"
+              imgAnnounce="https://i.postimg.cc/4NLb5hkv/votoCrop.jpg"
+              url="https://www.votoenelexterior.cl/"
             ></Announcements>
           </div>
           <div class="column is-third">
             <Announcements
-              title="Peticion para la instalacion de una mesa de votacion en Minnesota"
-              imgAnnounce="https://i.postimg.cc/HLH9n4JW/Peticion-para-la-instalacion-de-una-mesa-de-votacion-en-Minneso.jpg"
-              url="http://chng.it/rBCsLTPfbF"
+              title="Venta de Empanadas en Minnesota"
+              imgAnnounce="https://i.postimg.cc/tCTFYCZs/empanada.jpg"
+              url="https://www.facebook.com/pg/atacamacatering/photos/?ref=page_internal"
             ></Announcements>
           </div>
         </div>
