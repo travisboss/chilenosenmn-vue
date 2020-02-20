@@ -2,28 +2,20 @@
 
 ## Project setup
 ```
-yarn install
+docker build -t travisboss/chilenosenmn-vue
 ```
 
 ### Compiles and hot-reloads for development
 ```
-yarn serve
+docker run -it -p 8080:8080 --rm --name dockerize-chilenosenmn-vue travisboss/chilenosenmn-vue
 ```
 
 ### Compiles and minifies for production
 ```
-yarn build
+sh deploy.sh
 ```
 
-### Run your tests
+### Compiles and minifies for production
 ```
-yarn test
+sh deploy.sh
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
