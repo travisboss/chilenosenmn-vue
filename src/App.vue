@@ -7,21 +7,16 @@
         <div class="tile is-12 is-parent">
           <article class="message is-info">
             <div class="message-header">
-              Avisos
+              Aviso
             </div>
             <div class="message-body">
-              <ol>
-                <li>
-                  Queremos recordarles que para inscribir o cambiar su domicilio electoral, pueden
-                  hacerlo vía online con su clave única de registro civil. En el caso de no tener su
-                  clave, puede hacer el cambio de domicilio pidiendo una cita con nuestra cónsul
-                  honoraria en Minnesota,
-                  <span class="has-text-weight-bold">Teresa P. Olson</span> a
-                  <a class="has-text-link" href="mailto:consulhonorariamn@gmail.com"
-                    >consulhonorariamn@gmail.com</a
-                  >
-                </li>
-              </ol>
+              <p>Para nuestros amigos que disfrutan del fútbol Minnesotano, el club cuenta con entradas a precio rebajado ($30/ ticket +tax) para los siguientes partidos:</p>
+              <ul>
+                <li>Sat 5.27. 7pm</li>
+                <li>Sat 7.18. 7pm</li>
+                <li>Sun 8.9 2pm</li>
+              </ul>
+              <p>Los interesados por favor contactarse con Teresa Palacios Olson o envíenos un mensaje por interno.</p>
             </div>
           </article>
         </div>
