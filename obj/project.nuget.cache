@@ -1,8 +1,29 @@
 {
   "version": 2,
-  "dgSpecHash": "QIytMY0r8QgfMIC+tdtUBsUxhTQaF/QaGIbv5CUbvGDEZP7vQFmER5iPy/vUIyEDp8ZmNpmqyJAKV7nGJztXLg==",
+  "dgSpecHash": "ld7t7K5tWJSCOQ04S341FuuVkIcCg4MxsynmPcsdH6sxFnQvZN+jU0l6ZiRW1wXL4y7bqIx2CxhX8JqpjEjMlQ==",
   "success": true,
   "projectFilePath": "/Users/macbookbro/code/vue/chilenosenmn-vue/chilenosenmn-vue.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/macbookbro/.nuget/packages/microsoft.aspnetcore.nodeservices/3.1.0/microsoft.aspnetcore.nodeservices.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.aspnetcore.spaservices/3.1.0/microsoft.aspnetcore.spaservices.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.aspnetcore.spaservices.extensions/3.1.0/microsoft.aspnetcore.spaservices.extensions.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.configuration/3.1.0/microsoft.extensions.configuration.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.configuration.abstractions/3.1.0/microsoft.extensions.configuration.abstractions.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.configuration.binder/3.1.0/microsoft.extensions.configuration.binder.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.0/microsoft.extensions.dependencyinjection.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.0/microsoft.extensions.dependencyinjection.abstractions.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.fileproviders.abstractions/3.1.0/microsoft.extensions.fileproviders.abstractions.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.fileproviders.physical/3.1.0/microsoft.extensions.fileproviders.physical.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.filesystemglobbing/3.1.0/microsoft.extensions.filesystemglobbing.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.logging/3.1.0/microsoft.extensions.logging.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.0/microsoft.extensions.logging.abstractions.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.logging.configuration/3.1.0/microsoft.extensions.logging.configuration.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.logging.console/3.1.0/microsoft.extensions.logging.console.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.options/3.1.0/microsoft.extensions.options.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.options.configurationextensions/3.1.0/microsoft.extensions.options.configurationextensions.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/microsoft.extensions.primitives/3.1.0/microsoft.extensions.primitives.3.1.0.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/macbookbro/.nuget/packages/vueclimiddleware/3.1.1/vueclimiddleware.3.1.1.nupkg.sha512"
+  ],
   "logs": []
 }
