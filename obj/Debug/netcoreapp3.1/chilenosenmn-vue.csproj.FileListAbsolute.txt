@@ -1,8 +1,6 @@
 /Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/appsettings.Development.json
 /Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/appsettings.json
-/Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/package.json
 /Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/Properties/launchSettings.json
-/Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/src/locales/es.json
 /Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/chilenosenmn-vue.deps.json
 /Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/chilenosenmn-vue.runtimeconfig.json
 /Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/chilenosenmn-vue.runtimeconfig.dev.json
@@ -19,3 +17,12 @@
 /Users/macbookbro/code/vue/chilenosenmn-vue/obj/Debug/netcoreapp3.1/chilenosenmn-vue.dll
 /Users/macbookbro/code/vue/chilenosenmn-vue/obj/Debug/netcoreapp3.1/chilenosenmn-vue.pdb
 /Users/macbookbro/code/vue/chilenosenmn-vue/obj/Debug/netcoreapp3.1/chilenosenmn-vue.genruntimeconfig.cache
+/Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/ClientApp/package.json
+/Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/ClientApp/src/locales/es.json
+/Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.NodeServices.dll
+/Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SpaServices.dll
+/Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.SpaServices.Extensions.dll
+/Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
+/Users/macbookbro/code/vue/chilenosenmn-vue/bin/Debug/netcoreapp3.1/VueCliMiddleware.dll
+/Users/macbookbro/code/vue/chilenosenmn-vue/obj/Debug/netcoreapp3.1/chilenosenmn-vue.MvcApplicationPartsAssemblyInfo.cs
+/Users/macbookbro/code/vue/chilenosenmn-vue/obj/Debug/netcoreapp3.1/chilenosenmn-vue.csproj.CopyComplete
