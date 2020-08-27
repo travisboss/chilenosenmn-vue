@@ -7,16 +7,15 @@
         <div class="tile is-12 is-parent">
           <article class="message is-info">
             <div class="message-header">
-              Aviso
+              Anuncio Fiestas Patrias 2020
             </div>
             <div class="message-body">
-              <p>Para nuestros amigos que disfrutan del fútbol Minnesotano, el club cuenta con entradas a precio rebajado ($30/ ticket +tax) para los siguientes partidos:</p>
-              <ul>
-                <li>Sat 5.27. 7pm</li>
-                <li>Sat 7.18. 7pm</li>
-                <li>Sun 8.9 2pm</li>
-              </ul>
-              <p>Los interesados por favor contactarse con Teresa Palacios Olson o envíenos un mensaje por interno.</p>
+	    <p>Queridos amigos del club chileno en Minnesota,</p>
+		<p>Con gran pesar les queremos comunicar que debido a la situación que estamos viviendo con COVID-19 y las implicancias de esta emergencia sanitaria, nuestra tradicional celebración de las fiestas patrias será suspendida hasta el próximo año. Así que marquen sus calendarios porque ya tenemos listo el parque para el 18 de septiembre del 2021.</p>
+ 
+		<p>Pero como la buena y rica comida chilena no debe faltar en la mesa, pronto estaremos enviándoles un email con toda la información acerca de dónde pueden comprar empanadas entre otros ricos platos para que puedan disfrutar este 18 de septiembre.</p>
+ 
+		<p>Un saludo cordial para todos ustedes, esperando que todos estén bien y que esta pandemia no nos impida seguir en contacto con nuestras tradiciones de manera segura.</p>
             </div>
           </article>
         </div>
