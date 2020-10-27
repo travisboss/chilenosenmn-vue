@@ -29,7 +29,7 @@ jobs:
 
             - name: Install Packages and Build Application
               run: |
-                npm install -g @vue/cli yarn
+                yarn add global @vue/cli
                 yarn install
                 yarn build
             - name: Deploy
@@ -41,7 +41,7 @@ jobs:
                 GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
             - uses: 1arp/create-a-file-action@0.2
               with:
-               path: '/'
+               path: 'src'
                file: 'CNAME'
                content: |
-                www.chilenosenmn.org 
+                www.chilenosenmn.org
