@@ -14,7 +14,7 @@ jobs:
             - name: Create Node Environment
               uses: actions/setup-node@v1
               with:
-                node-version: 14.x
+                node-version: 10.x
             - name: Get yarn cache directory path
               id: yarn-cache-dir-path
               run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -29,7 +29,7 @@ jobs:
 
             - name: Install Packages and Build Application
               run: |
-                yarn add global @vue/cli
+                yarn add @vue/cli
                 yarn install
                 yarn build
             - name: Deploy
@@ -39,9 +39,11 @@ jobs:
                 BRANCH: gh-pages
                 FOLDER: dist
                 GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-            - uses: 1arp/create-a-file-action@0.2
-              with:
-               path: 'src'
-               file: 'CNAME'
-               content: |
-                www.chilenosenmn.org
+            - name: Create CNAME file
+                action "Create file" {
+                  uses = "finnp/create-file-action@master"
+                  env = {
+                    FILE_NAME = "example.md"
+                    FILE_DATA = "#Example file\nThis is an example"
+                  }
+                }
