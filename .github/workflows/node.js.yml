@@ -26,14 +26,7 @@ jobs:
                 key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
                 restore-keys: |
                     ${{ runner.os }}-yarn-:  
-            - name: create cname file
-                action "Create file" {
-                uses = "finnp/create-file-action@master"
-                env = {
-                    FILE_NAME = "CNAME"
-                    FILE_DATA = "www.chilenosenmn.org"
-               }
-               }
+
             - name: Install Packages and Build Application
               run: |
                 npm install -g @vue/cli yarn
