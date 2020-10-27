@@ -40,10 +40,11 @@ jobs:
                 FOLDER: dist
                 GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
             - name: Create CNAME file
+              run: |
                 action "Create file" {
                   uses = "finnp/create-file-action@master"
                   env = {
-                    FILE_NAME = "example.md"
-                    FILE_DATA = "#Example file\nThis is an example"
+                    FILE_NAME = "CNAME"
+                    FILE_DATA = "www.chilenosenmn.org"
                   }
                 }
