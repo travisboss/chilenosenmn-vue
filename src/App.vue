@@ -10,12 +10,29 @@
               Anuncio Fiestas Patrias 2020
             </div>
             <div class="message-body">
-	    <p>Queridos amigos del club chileno en Minnesota,</p><br>
-		<p>Con gran pesar les queremos comunicar que debido a la situación que estamos viviendo con COVID-19 y las implicancias de esta emergencia sanitaria, nuestra tradicional celebración de las fiestas patrias será suspendida hasta el próximo año. Así que marquen sus calendarios porque ya tenemos listo el parque para el 18 de septiembre del 2021.</p>
-<br /> 
-		<p>Pero como la buena y rica comida chilena no debe faltar en la mesa, pronto estaremos enviándoles un email con toda la información acerca de dónde pueden comprar empanadas entre otros ricos platos para que puedan disfrutar este 18 de septiembre.</p>
-<br /> 
-		<p>Un saludo cordial para todos ustedes, esperando que todos estén bien y que esta pandemia no nos impida seguir en contacto con nuestras tradiciones de manera segura.</p>
+              <p>Queridos amigos del club chileno en Minnesota,</p>
+              <br />
+              <p>
+                Con gran pesar les queremos comunicar que debido a la situación
+                que estamos viviendo con COVID-19 y las implicancias de esta
+                emergencia sanitaria, nuestra tradicional celebración de las
+                fiestas patrias será suspendida hasta el próximo año. Así que
+                marquen sus calendarios porque ya tenemos listo el parque para
+                el 18 de septiembre del 2021.
+              </p>
+              <br />
+              <p>
+                Pero como la buena y rica comida chilena no debe faltar en la
+                mesa, pronto estaremos enviándoles un email con toda la
+                información acerca de dónde pueden comprar empanadas entre otros
+                ricos platos para que puedan disfrutar este 18 de septiembre.
+              </p>
+              <br />
+              <p>
+                Un saludo cordial para todos ustedes, esperando que todos estén
+                bien y que esta pandemia no nos impida seguir en contacto con
+                nuestras tradiciones de manera segura.
+              </p>
             </div>
           </article>
         </div>
