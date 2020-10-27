@@ -39,3 +39,9 @@ jobs:
                 BRANCH: gh-pages
                 FOLDER: dist
                 GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
+            - uses: 1arp/create-a-file-action@0.2
+              with:
+               path: '/'
+               file: 'CNAME'
+               content: |
+                www.chilenosenmn.org 
