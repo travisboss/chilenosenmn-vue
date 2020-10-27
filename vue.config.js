@@ -1,5 +1,5 @@
 module.exports = {
-  chainWebpack: config => {
+  chainWebpack: (config) => {
     config.module
       .rule('i18n')
       .resourceQuery(/blockType=i18n/)
@@ -13,15 +13,15 @@ module.exports = {
       locale: 'es',
       fallbackLocale: 'es',
       localeDir: 'locales',
-      enableInSFC: true
-    }
+      enableInSFC: true,
+    },
   },
   css: {
     loaderOptions: {
       sass: {
-        data: `@import "@/styles/main.scss";`
-      }
-    }
+        data: `@import "@/styles/main.scss";`,
+      },
+    },
   },
-  publicPath: process.env.NODE_ENV === 'production' ? '/' : '/'
+  publicPath: '/chilenosenmn-vue/',
 };
