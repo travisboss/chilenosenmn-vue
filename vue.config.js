@@ -22,6 +22,5 @@ module.exports = {
         data: `@import "@/styles/main.scss";`,
       },
     },
-  },
-  publicPath: '/chilenosenmn-vue/',
+  }
 };
