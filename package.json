@@ -4,8 +4,8 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build",
-    "deploy": "gh-pages -d dist && cp CNAME dist/CNAME",
+    "build": "vue-cli-service build && cp CNAME dist/CNAME",
+    "deploy": "gh-pages -d dist",
     "lint": "vue-cli-service lint",
     "i18n:report": "vue-cli-service i18n:report --src './src/**/*.?(js|vue)' --locales './src/locales/**/*.json'"
   },
