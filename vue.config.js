@@ -22,5 +22,6 @@ module.exports = {
         data: `@import "@/styles/main.scss";`,
       },
     },
-  }
+  },
+  publicPath: process.env.NODE_ENV === 'production' ? '/chilensenmn-vue/' : '/',
 };
