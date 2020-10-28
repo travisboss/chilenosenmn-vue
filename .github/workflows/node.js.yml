@@ -39,4 +39,4 @@ jobs:
                 BRANCH: gh-pages
                 FOLDER: dist
                 GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-                CLEAN: false
+                CNAME: chilenosenmn.org
