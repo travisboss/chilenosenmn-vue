@@ -39,4 +39,8 @@ jobs:
                 BRANCH: gh-pages
                 FOLDER: dist
                 GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
-                CNAME: chilenosenmn.org
+                
+            - name: GitHub Pages action
+              uses: peaceiris/actions-gh-pages@v3.7.3
+              with:
+                cname: chilenosenmn.org
