@@ -1,18 +1,4 @@
 # chilenosenmn
 
 ## Project setup
-```
-docker build -t travisboss/chilenosenmn-vue .
-```
-
-### Compiles and hot-reloads for development
-```
-docker run -it -p 8080:8080 --rm --name dockerize-chilenosenmn-vue travisboss/chilenosenmn-vue
-```
-
-### Compiles and minifies for production
-```
-sh deploy.sh
-```
-
-//testing
+This project is built using vscode containers using `ubuntu-latest` if you'd like the .devcontainer file please ask, I keep a single vue container for all my vue projects.
