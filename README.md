@@ -14,3 +14,5 @@ docker run -it -p 8080:8080 --rm --name dockerize-chilenosenmn-vue travisboss/ch
 ```
 sh deploy.sh
 ```
+
+//testing
