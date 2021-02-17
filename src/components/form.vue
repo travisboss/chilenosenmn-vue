@@ -18,6 +18,7 @@
                 <label class="label" name="name">{{ $t("name") }}</label>
                 <div class="control has-icons-left">
                   <input
+                    required
                     class="input"
                     v-model="name"
                     type="text"
@@ -35,6 +36,7 @@
                 <label class="label">{{ $t("email") }}</label>
                 <div class="control has-icons-left">
                   <input
+                    required
                     class="input"
                     type="email"
                     v-model="email"
@@ -68,6 +70,7 @@
                 <label class="label">{{ $t("message") }}</label>
                 <div class="control">
                   <textarea
+                    required
                     class="textarea"
                     v-model="message"
                     name="message"
@@ -82,7 +85,6 @@
                     class="button is-info is-rounded"
                     type="submit"
                     value="Send"
-                    v-on:click="sendFormspree"
                   >
                     <span class="icon">
                       <i class="fa fa-envelope"></i>
@@ -94,7 +96,7 @@
             </div>
           </div>
         </div>
-        <input type="hidden" name="contactform" value="contactform" />
+        <input type="hidden" name="form-name" value="contactform" />
       </form>
     </div>
   </section>
