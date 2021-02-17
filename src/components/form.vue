@@ -78,12 +78,6 @@
                     name="message"
                     placeholder="Your Message"
                   ></textarea>
-                  <input type="text" name="_gotcha" style="display:none" />
-                  <input
-                    type="hidden"
-                    name="_next"
-                    value="https://chilenosenmn.org/"
-                  />
                 </div>
               </div>
 
@@ -127,15 +121,6 @@ export default {
       return this.name && this.email && this.message;
     },
   },
-  methods: {
-    sendFormspree() {
-      contactform.setAttribute(
-        "action",
-        "//formspree.io/" + "chilenosenminnesota" + "@" + "gmail" + "." + "com"
-      );
-    },
-  },
-};
 </script>
 
 <i18n>
