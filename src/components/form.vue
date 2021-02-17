@@ -10,7 +10,12 @@
         </h4>
       </div>
       <br />
-      <form method="POST" name="contactform" data-netlify="true">
+      <form
+        method="POST"
+        name="contactform"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
         <div class="columns">
           <div class="column is-6 is-offset-3">
             <div class="box">
@@ -25,6 +30,7 @@
                     placeholder="e.g John Doe"
                     value
                   />
+                  <input type="hidden" name="form-name" value="contactform" />
                   <span class="icon is-small is-left">
                     <i class="fa fa-user"></i>
                   </span>
