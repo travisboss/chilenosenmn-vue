@@ -38,6 +38,7 @@
                     required
                     class="input"
                     type="email"
+                    name="email"
                     placeholder="e.g johndoe@gmail.com"
                     value
                   />
