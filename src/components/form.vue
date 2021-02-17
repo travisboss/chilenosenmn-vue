@@ -2,16 +2,25 @@
   <section class="section" id="contact">
     <div class="column">
       <div class="section-heading">
-        <h3 class="title is-2 has-text-white has-text-centered">{{ $t('contact') }}</h3>
-        <h4 class="subtitle is-5 has-text-white has-text-centered">{{ $t('touch') }}</h4>
+        <h3 class="title is-2 has-text-white has-text-centered">
+          {{ $t("contact") }}
+        </h3>
+        <h4 class="subtitle is-5 has-text-white has-text-centered">
+          {{ $t("touch") }}
+        </h4>
       </div>
       <br />
-      <form id="contactform" method="POST" name="sentMessage">
+      <form
+        id="contactformchilenos"
+        method="POST"
+        name="sentMessage"
+        data-netlify="true"
+      >
         <div class="columns">
           <div class="column is-6 is-offset-3">
             <div class="box">
               <div class="field">
-                <label class="label" name="name">{{ $t('name') }}</label>
+                <label class="label" name="name">{{ $t("name") }}</label>
                 <div class="control has-icons-left">
                   <input
                     class="input"
@@ -28,7 +37,7 @@
               </div>
 
               <div class="field">
-                <label class="label">{{ $t('email') }}</label>
+                <label class="label">{{ $t("email") }}</label>
                 <div class="control has-icons-left">
                   <input
                     class="input"
@@ -45,7 +54,7 @@
               </div>
 
               <div class="field">
-                <label class="label">{{ $t('phone') }}</label>
+                <label class="label">{{ $t("phone") }}</label>
                 <div class="control has-icons-left">
                   <input
                     class="input"
@@ -61,7 +70,7 @@
               </div>
 
               <div class="field">
-                <label class="label">{{ $t('message') }}</label>
+                <label class="label">{{ $t("message") }}</label>
                 <div class="control">
                   <textarea
                     class="textarea"
@@ -70,7 +79,11 @@
                     placeholder="Your Message"
                   ></textarea>
                   <input type="text" name="_gotcha" style="display:none" />
-                  <input type="hidden" name="_next" value="https://chilenosenmn.org/" />
+                  <input
+                    type="hidden"
+                    name="_next"
+                    value="https://chilenosenmn.org/"
+                  />
                 </div>
               </div>
 
@@ -86,7 +99,7 @@
                     <span class="icon">
                       <i class="fa fa-envelope"></i>
                     </span>
-                    <span>{{ $t('submit') }}</span>
+                    <span>{{ $t("submit") }}</span>
                   </button>
                 </div>
               </div>
@@ -100,28 +113,28 @@
 
 <script>
 export default {
-  name: 'Form',
+  name: "Form",
   data() {
-    return { locale: '', name: '', email: '', message: '' };
+    return { locale: "", name: "", email: "", message: "" };
   },
   watch: {
     locale(val) {
       this.$i18n.locale = val;
-    }
+    },
   },
   computed: {
     isComplete() {
       return this.name && this.email && this.message;
-    }
+    },
   },
   methods: {
     sendFormspree() {
       contactform.setAttribute(
-        'action',
-        '//formspree.io/' + 'chilenosenminnesota' + '@' + 'gmail' + '.' + 'com'
+        "action",
+        "//formspree.io/" + "chilenosenminnesota" + "@" + "gmail" + "." + "com"
       );
-    }
-  }
+    },
+  },
 };
 </script>
 

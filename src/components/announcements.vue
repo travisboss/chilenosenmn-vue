@@ -23,16 +23,16 @@
 
 <script>
 export default {
-  name: 'Announcements',
-  props: ['title', 'imgAnnounce', 'url'],
+  name: "Announcements",
+  props: ["title", "imgAnnounce", "url"],
   data() {
-    return { locale: 'es' };
+    return { locale: "es" };
   },
   watch: {
     locale(val) {
       this.$i18n.locale = val;
-    }
-  }
+    },
+  },
 };
 </script>
 <i18n>

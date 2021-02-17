@@ -16,7 +16,7 @@
 
 <script>
 export default {
-  name: 'Events',
-  props: ['title', 'imgURL', 'url']
+  name: "Events",
+  props: ["title", "imgURL", "url"],
 };
 </script>
