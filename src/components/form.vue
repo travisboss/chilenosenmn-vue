@@ -117,6 +117,7 @@ export default {
       return this.name && this.email && this.message;
     },
   },
+};
 </script>
 
 <i18n>
