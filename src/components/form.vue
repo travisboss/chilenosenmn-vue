@@ -79,7 +79,6 @@
               <div class="field is-grouped has-text-centered">
                 <div class="control">
                   <button
-                    :disabled="!isComplete"
                     class="button is-info is-rounded"
                     type="submit"
                     value="Send"
@@ -110,11 +109,6 @@ export default {
   watch: {
     locale(val) {
       this.$i18n.locale = val;
-    },
-  },
-  computed: {
-    isComplete() {
-      return this.name && this.email && this.message;
     },
   },
 };
