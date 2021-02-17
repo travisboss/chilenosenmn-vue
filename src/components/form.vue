@@ -81,11 +81,7 @@
 
               <div class="field is-grouped has-text-centered">
                 <div class="control">
-                  <button
-                    class="button is-info is-rounded"
-                    type="submit"
-                    value="Send"
-                  >
+                  <button class="button is-info is-rounded" type="submit">
                     <span class="icon">
                       <i class="fa fa-envelope"></i>
                     </span>
@@ -96,7 +92,6 @@
             </div>
           </div>
         </div>
-        <input type="hidden" name="form-name" value="contactform" />
       </form>
     </div>
   </section>
