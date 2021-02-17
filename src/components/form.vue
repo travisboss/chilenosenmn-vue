@@ -10,7 +10,7 @@
         </h4>
       </div>
       <br />
-      <form method="POST" name="contactform" data-netlify="true">
+      <form action="POST" name="contactform" data-netlify="true">
         <div class="columns">
           <div class="column is-6 is-offset-3">
             <div class="box">
