@@ -75,6 +75,12 @@
                 </div>
               </div>
 
+              <div class="field">
+                <div class="control">
+                  <div data-netlify-recaptcha="true"></div>
+                </div>
+              </div>
+
               <div class="field is-grouped has-text-centered">
                 <div class="control">
                   <button class="button is-info is-rounded" type="submit">
