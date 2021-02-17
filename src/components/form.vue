@@ -10,7 +10,7 @@
         </h4>
       </div>
       <br />
-      <form action="POST" name="contactform" data-netlify="true">
+      <form method="POST" name="contactform" data-netlify="true">
         <div class="columns">
           <div class="column is-6 is-offset-3">
             <div class="box">
@@ -76,11 +76,7 @@
                 </div>
               </div>
 
-              <div class="field">
-                <div class="control">
-                  <div data-netlify-recaptcha="true"></div>
-                </div>
-              </div>
+              <div data-netlify-recaptcha="true"></div>
 
               <div class="field is-grouped has-text-centered">
                 <div class="control">
