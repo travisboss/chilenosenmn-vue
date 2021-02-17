@@ -72,11 +72,13 @@
               class="fb-xfbml-parse-ignore"
             >
               <p>
-                Queridos amigos, Queremos expresar nuestro más sincero pesar por la situación que
-                está pasando nuestro país....
+                Queridos amigos, Queremos expresar nuestro más sincero pesar por
+                la situación que está pasando nuestro país....
               </p>
               Posted by
-              <a href="https://www.facebook.com/chilenos.fernandez.9">Chilenos EnMinnesota</a>
+              <a href="https://www.facebook.com/chilenos.fernandez.9"
+                >Chilenos EnMinnesota</a
+              >
               on&nbsp;<a
                 href="https://developers.facebook.com/chilenos.fernandez.9/posts/600496920724489"
                 >Thursday, November 14, 2019</a
@@ -118,22 +120,22 @@
 </template>
 
 <script>
-import Announcements from './components/announcements.vue';
-import Events from './components/events.vue';
-import Footer from './components/footer.vue';
-import Form from './components/form.vue';
-import Header from './components/header.vue';
-import Nav from './components/nav.vue';
+import Announcements from "./components/announcements.vue";
+import Events from "./components/events.vue";
+import Footer from "./components/footer.vue";
+import Form from "./components/form.vue";
+import Header from "./components/header.vue";
+import Nav from "./components/nav.vue";
 
 export default {
-  name: 'app',
+  name: "app",
   components: {
     Announcements,
     Events,
     Footer,
     Form,
     Header,
-    Nav
-  }
+    Nav,
+  },
 };
 </script>

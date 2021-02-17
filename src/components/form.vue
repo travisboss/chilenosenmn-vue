@@ -20,7 +20,6 @@
                   <input
                     required
                     class="input"
-                    v-model="name"
                     type="text"
                     name="name"
                     placeholder="e.g John Doe"
@@ -39,8 +38,6 @@
                     required
                     class="input"
                     type="email"
-                    v-model="email"
-                    name="_replyto"
                     placeholder="e.g johndoe@gmail.com"
                     value
                   />
@@ -72,7 +69,6 @@
                   <textarea
                     required
                     class="textarea"
-                    v-model="message"
                     name="message"
                     placeholder="Your Message"
                   ></textarea>
@@ -99,10 +95,6 @@
 
 <script>
 export default {
-  name: "Form",
-  data() {
-    return { locale: "", name: "", email: "", message: "" };
-  },
   watch: {
     locale(val) {
       this.$i18n.locale = val;
