@@ -19,11 +19,11 @@ jobs:
         run: |
           npm i -g @vue/cli
           npm ci
-          npm build
+          npm run build
       - name: Deploy
         uses: s0/git-publish-subdir-action@master
         env:
           REPO: self
           BRANCH: gh-pages
-          FOLDER: public
+          FOLDER: dist
           GITHUB_TOKEN: ${{ secrets.ACTIONS_DEPLOY_ACCESS_TOKEN }}
