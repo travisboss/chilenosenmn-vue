@@ -33,6 +33,7 @@
     "vue-i18n": "^8.24.5",
     "vue-template-compiler": "^2.6.10",
     "vue-tiny-lazyload-img": "^0.1.0",
+    "trim-newlines": ">=3.0.1",
     "webpack": "^4.46.0"
   },
   "eslintConfig": {
