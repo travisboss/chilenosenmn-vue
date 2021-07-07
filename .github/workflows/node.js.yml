@@ -23,7 +23,6 @@ jobs:
             ${{ runner.os }}-node-
       - name: Install Packages and Build Application
         run: |
-          npm i -g @vue/cli
           npm ci
           npm run build
       - name: Deploy
