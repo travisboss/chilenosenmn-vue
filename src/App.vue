@@ -1,7 +1,7 @@
 <template>
   <div id="app">
-    <Nav></Nav>
-    <Header></Header>
+    <Nav />
+    <Header />
     <section id="party">
       <div class="container">
         <div class="tile is-12 is-parent">
@@ -43,21 +43,21 @@
               title="Consulado Honorario en Minnesota"
               imgAnnounce="https://i.postimg.cc/hj2qj06Q/servicosconsulares.jpg"
               url="https://serviciosconsulares.cl/tramites/consulados-en-el-exterior/estados-unidos/minneapolis-minnesota/consulado-honorario-en-minneapolis-minnesota"
-            ></Announcements>
+            />
           </div>
           <div class="column is-third">
             <Announcements
               title="Voto Chileno en Exterior"
               imgAnnounce="https://i.postimg.cc/4NLb5hkv/votoCrop.jpg"
               url="https://www.votoenelexterior.cl/"
-            ></Announcements>
+            />
           </div>
           <div class="column is-third">
             <Announcements
               title="Venta de Empanadas en Minnesota"
               imgAnnounce="https://i.postimg.cc/tCTFYCZs/empanada.jpg"
               url="https://www.facebook.com/pg/atacamacatering/photos/?ref=page_internal"
-            ></Announcements>
+            />
           </div>
         </div>
         <div class="is-parent is-pt-2 is-hidden">
@@ -93,7 +93,6 @@
       <div class="container">
         <div class="content has-text-centered">
           <h2 class="section-heading text-uppercase">Eventos Pasados</h2>
-          <h3 class="section-subheading text-muted"></h3>
         </div>
       </div>
       <div class="columns">
@@ -135,7 +134,7 @@ export default {
     Footer,
     Form,
     Header,
-    Nav,
-  },
+    Nav
+  }
 };
 </script>

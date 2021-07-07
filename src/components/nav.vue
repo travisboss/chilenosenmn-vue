@@ -16,7 +16,6 @@
           />
           Chilenos En Minnesota
         </a>
-
         <a
           role="button"
           class="navbar-burger burger"
@@ -49,6 +48,6 @@
 
 <script>
 export default {
-  name: "Nav",
+  name: "Nav"
 };
 </script>

@@ -3,7 +3,7 @@
     <a class="portfolio-link" :href="url" target="_blank">
       <div class="portfolio-hover">
         <div class="portfolio-hover-content">
-          <i class="fa fa-external-link fa-3x"></i>
+          <i class="fa fa-external-link fa-3x" aria-hidden="true" />
         </div>
       </div>
       <img v-lazyload class="image" :src="imgURL" alt="chilenosenminnesota" />
@@ -17,6 +17,6 @@
 <script>
 export default {
   name: "Events",
-  props: ["title", "imgURL", "url"],
+  props: ["title", "imgURL", "url"]
 };
 </script>
