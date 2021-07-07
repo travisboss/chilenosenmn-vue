@@ -15,6 +15,12 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
+      - name: Cache multiple paths
+        uses: actions/cache@v2
+        with:
+        path: |
+          ~/node_modules
+        key: ${{ runner.os }}-${{ hashFiles('**/lockfiles') }}
       - name: Install Packages and Build Application
         run: |
           npm i -g @vue/cli
