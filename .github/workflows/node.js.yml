@@ -17,7 +17,7 @@ jobs:
           node-version: 14.x
       - name: Install Packages and Build Application
         run: |
-          npm i @vue/cli
+          npm i -g @vue/cli
           npm ci
           npm build
       - name: Deploy
