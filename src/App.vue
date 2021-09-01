@@ -7,7 +7,7 @@
         <div class="tile is-12 is-parent">
           <article class="message is-info">
             <div class="message-header">
-              Anuncio Fiestas Patrias 2020
+              Anuncio Fiestas Patrias 2021
             </div>
             <div class="message-body">
               <p>Queridos amigos del club chileno en Minnesota,</p>
@@ -18,7 +18,7 @@
                 emergencia sanitaria, nuestra tradicional celebración de las
                 fiestas patrias será suspendida hasta el próximo año. Así que
                 marquen sus calendarios porque ya tenemos listo el parque para
-                el 18 de septiembre del 2021.
+                el 17 de septiembre del 2022.
               </p>
               <br />
               <p>
