@@ -25,7 +25,7 @@
                 Pero como la buena y rica comida chilena no debe faltar en la
                 mesa, pronto estaremos enviándoles un email con toda la
                 información acerca de dónde pueden comprar empanadas entre otros
-                ricos platos para que puedan disfrutar este 18 de septiembre.
+                ricos platos para que puedan disfrutar este 17 de septiembre.
               </p>
               <br />
               <p>
