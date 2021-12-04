@@ -135,11 +135,6 @@ export default {
     Form,
     Header,
     Nav
-  },
-  mounted() {
-    let externalScript = document.createElement('script')
-    externalScript.setAttribute('src', 'https://static.cloudflareinsights.com/beacon.min.js', 'data-cf-beacon', '{"token": "a7b409391106498d89cd541bea6991a3"}')
-    document.head.appendChild(externalScript)
   }
 };
 </script>
