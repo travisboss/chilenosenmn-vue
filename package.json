@@ -29,7 +29,7 @@
     "vue": "^2.6.14",
     "vue-analytics": "^5.22.1",
     "vue-carousel": "^0.18.0",
-    "vue-cli-plugin-i18n": "^0.6.0",
+    "vue-cli-plugin-i18n": "^2.3.1",
     "vue-i18n": "^8.24.5",
     "vue-template-compiler": "^2.6.10",
     "vue-tiny-lazyload-img": "^0.1.0",
