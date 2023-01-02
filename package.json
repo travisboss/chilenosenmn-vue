@@ -12,8 +12,8 @@
   "dependencies": {},
   "devDependencies": {
     "@kazupon/vue-i18n-loader": "^0.3.0",
-    "@vue/cli-plugin-eslint": "^3.10.0",
-    "@vue/cli-service": "^3.10.0",
+    "@vue/cli-plugin-eslint": "^5.0.8",
+    "@vue/cli-service": "^5.0.8",
     "@vue/eslint-config-prettier": "^5.0.0",
     "babel-eslint": "^10.0.1",
     "bulma": "^0.9.3",
@@ -25,7 +25,7 @@
     "jquery": "^3.6.0",
     "node-sass": "^4.9.0",
     "prettier": "^1.18.2",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^13.2.0",
     "vue": "^2.6.14",
     "vue-analytics": "^5.22.1",
     "vue-carousel": "^0.18.0",
@@ -34,7 +34,7 @@
     "vue-template-compiler": "^2.6.10",
     "vue-tiny-lazyload-img": "^0.1.0",
     "trim-newlines": ">=3.0.1",
-    "webpack": "^4.46.0"
+    "webpack": "^5.75.0"
   },
   "eslintConfig": {
     "root": true,
